@@ -4,11 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-tqdm = "*"
-notebook = "==7.1.2"
-openai = "*"
-elasticsearch = "*"
+jupyter = "*"
+scikit-learn = "*"
+pandas = "*"
 requests = "*"
+transformers = "*"
+tqdm = "*"
+torch = "*"
 streamlit = "*"
 
 [dev-packages]
